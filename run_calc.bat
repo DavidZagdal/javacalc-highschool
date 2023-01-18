@@ -1,2 +1,1 @@
-
 java -jar Calculator.jar
