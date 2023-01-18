@@ -1,0 +1,379 @@
+
+
+
+
+
+#blackButtons{
+    
+    -fx-font-size: 40px;
+    -fx-background-color: black;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+
+}
+
+//sivi gumbi
+#grayButtons{
+    -fx-font-size: 40px;
+    -fx-background-color: #0f0f0f;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+//sivi gumb isa prevelik fontom pa sam morao smanjit
+#grayButtonsSmall{
+    -fx-font-size: 25px;
+    -fx-background-color: #0f0f0f;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+
+#blackButtons:hover{
+   -fx-border-color: #00C9C8;
+    -fx-border-width: 0px 0px 3px 0px;
+}
+
+
+
+#grayButtons:hover{
+   -fx-border-color: #00C9C8;
+    -fx-border-width: 0px 0px 3px 0px;
+}
+
+#grayButtonsSmall:hover{
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-border-color: #00C9C8;
+}
+
+
+
+
+#blackButtons:pressed{
+   -fx-border-color: #00C9C8;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-background-color: #131313;
+}
+
+
+#grayButtons:pressed{
+   -fx-border-color: #00C9C8;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-background-color: #232324;
+}
+
+#grayButtonsSmall:pressed{
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-border-color: #00C9C8;
+    -fx-background-color: #232324;
+}
+
+
+
+
+
+
+
+//LABEL
+#lightGrayLabel{
+    -fx-font-size: 40px;
+    -fx-base: #4d4d4d;
+    -fx-border-width: 2;
+    -fx-border-color: #4d4d4d;
+    
+    
+}
+
+//manji LABEL
+#lightGrayLabelSmall{
+    -fx-font-size: 15px;
+    -fx-base: #4d4d4d;
+    -fx-border-width: 2;
+    -fx-border-color: #4d4d4d;
+}
+
+//label za title
+#lightGrayLabelSmallest{
+    -fx-font-size: 20px;
+    -fx-base: #0f0f0f;
+    -fx-border-width: 0;
+    -fx-border-color: transparent;
+}
+
+
+
+
+#grayButtonsSmallest {
+    -fx-font-size: 15px;
+    -fx-background-color: #0f0f0f;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+
+#grayButtonsSmallest:hover{
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-border-color: #00C9C8;
+}
+
+#grayButtonsSmallest:pressed{
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-border-color: #00C9C8;
+    -fx-background-color: #232324;
+}
+
+
+
+//gumbi za gasnju od ovdje
+#btnCLOSE{
+    -fx-font-size: 15px;
+    -fx-base: #0f0f0f;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}
+
+#btnMINMAX{
+    -fx-font-size: 15px;
+    -fx-base: #0f0f0f;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}
+
+#btnFS{
+    -fx-font-size: 15px;
+    -fx-base: #0f0f0f;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    
+}
+
+#btnCLOSE:focused {
+    -fx-border-color: transparent, black;
+    
+}
+
+#btnFS:focused {
+    -fx-border-color: transparent, black;
+    
+}
+
+#btnMINMAX:focused {
+    -fx-border-color: transparent, black;
+    
+}
+
+#btnCLOSE:pressed {
+    -fx-text-fill: red;
+    -fx-border-width: 0;
+}
+
+#btnMINMAX:pressed {
+    -fx-text-fill: green;
+    -fx-border-width: 0;
+}
+
+#btnFS:pressed{
+    -fx-text-fill: yellow;
+    -fx-border-width: 0;
+}
+
+#btnCLOSE:hover{
+    -fx-background-color: gray;
+    -fx-text-fill: red;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-border-color: red;
+}
+
+#btnMINMAX:hover {
+    -fx-background-color: gray;
+    -fx-text-fill: #079C00;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-border-color: #079C00;
+}
+
+#btnFS:hover {
+    -fx-background-color: gray;
+    -fx-text-fill: #FFEC00 ;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-border-color: #FFEC00 ;
+}
+
+//sve do ovdje (gumbovi za gasnju))
+
+
+
+//veliki gumbovi u fullscreen
+#blackButtonsFullscreen{
+    -fx-font-size: 60px;
+    -fx-background-color: black;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+//sivi gumbi
+#grayButtonsFullscreen{
+    -fx-font-size: 60px;
+    -fx-background-color: #0f0f0f;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+//sivi gumb isa prevelik fontom pa sam morao smanjit
+#grayButtonsSmallFullscreen{
+    -fx-font-size: 28px;
+    -fx-background-color:#0f0f0f;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+
+//LABEL
+#lightGrayLabelFullscreen{
+    -fx-font-size: 60px;
+    -fx-base: #4d4d4d;
+    -fx-border-width: 2;
+    -fx-border-color: #4d4d4d;
+    
+    
+}
+
+//manji LABEL
+#lightGrayLabelSmallFullscreen{
+    -fx-font-size: 20px;
+    -fx-base: #4d4d4d;
+    -fx-border-width: 2;
+    -fx-border-color: #4d4d4d;
+}
+
+//label za title
+#lightGrayLabelSmallestFullscreen{
+    -fx-font-size: 30px;
+    -fx-base: #0f0f0f;
+    -fx-border-width: 0;
+    -fx-border-color: transparent;
+}
+
+#IndicatorPressed{
+    -fx-background-color: white;
+    -fx-background-radius: 50px;
+    -fx-background-insets: 0;
+}
+
+#Indicator{
+    -fx-border-radius: 50px;
+    -fx-background-color:#1C1C1C;
+    -fx-background-radius: 50px;
+    -fx-background-insets: 0;
+}
+
+
+#blackButtonsFullscreen:hover{
+   -fx-border-color: #00C9C8;
+    -fx-border-width: 0px 0px 6px 0px;
+}
+
+
+
+#grayButtonsFullscreen:hover{
+   -fx-border-color: #00C9C8;
+    -fx-border-width: 0px 0px 6px 0px;
+}
+
+#grayButtonsSmallFullscreen:hover{
+    -fx-border-width: 0px 0px 6px 0px;
+    -fx-border-color: #00C9C8;
+}
+
+
+
+
+#blackButtonsFullscreen:pressed{
+   -fx-border-color: #00C9C8;
+    -fx-border-width: 0px 0px 6px 0px;
+    -fx-background-color: #131313;
+}
+
+
+#grayButtonsFullscreen:pressed{
+   -fx-border-color: #00C9C8;
+    -fx-border-width: 0px 0px 6px 0px;
+    -fx-background-color: #232324;
+}
+
+#grayButtonsSmallFullscreen:pressed{
+    -fx-border-width: 0px 0px 6px 0px;
+    -fx-border-color: #00C9C8;
+    -fx-background-color: #232324;
+}
+
+
+#btnHelp{
+    -fx-font-size: 12px;
+    -fx-base: #0f0f0f;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    
+}
+
+#btnHelp:focused {
+    -fx-border-color: transparent, black;
+    
+}
+
+#btnHelp:hover {
+    -fx-background-color: gray;
+    -fx-text-fill: #00C9C8;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-border-color: #00C9C8;
+}
+
+
+//label za help
+#lightGrayLabelSmallestHelp{
+    -fx-font-size: 20px;
+    -fx-base: #0f0f0f;
+    -fx-border-width: 0;
+    -fx-border-color: transparent;
+    -fx-background-color: #2C2C2C;
+    //-fx-background-color: #FFFFFF;
+}
+
+#lightGrayLabelHelp{
+    -fx-font-size: 40px;
+    -fx-base: #0f0f0f;
+    -fx-border-width: 0;
+    -fx-border-color: transparent;
+}
+
+
+#grayButtonsSmallest2{
+    -fx-font-size: 25px;
+    -fx-background-color: #0f0f0f;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+
+#grayButtonsSmallest2:hover{
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-border-color: #00C9C8;
+}
+
+
+#grayButtonsSmallest2:pressed{
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-border-color: #00C9C8;
+    -fx-background-color: #232324;
+}
